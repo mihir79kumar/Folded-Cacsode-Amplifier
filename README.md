@@ -25,16 +25,16 @@ The amplifier's AC response was characterized using a DC-closed loop and AC-open
 
 ### 1. Circuit Schematic
 *(Upload your folded_cascode_amp.png to an `images` folder in your repo to display it here)*
-![Folded Cascode Schematic](./images/folded_cascode_amp.png)
+![Folded Cascode Schematic](folded_cascode_amp.png)
 
 ### 2. Characterization Testbench
 *(Upload your folded_cascode_TB.png to the `images` folder)*
-![Testbench Schematic](./images/folded_cascode_TB.png)
+![Testbench Schematic](folded_cascode_TB.png)
 *The testbench utilizes a 5V supply with a 2.5V common-mode input and a 1 pF load capacitor.*
 
 ### 3. AC Response (Bode Plot)
 *(Upload an image version of your AC response plot to the `images` folder)*
-![AC Response](./images/ac_response.png)
+![AC Response](ac_response.png)
 *The AC response plot demonstrates a DC gain of 61.89 dB and a UGB of 12.88 MHz with a phase margin of 85.1°.*
 
 ## Tools Used
