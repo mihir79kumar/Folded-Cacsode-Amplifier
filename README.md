@@ -6,13 +6,13 @@ This repository contains the schematic design, testbench setup, and simulation r
 Key architectural choices include the implementation of a **cascode current mirror** for precise biasing and enhanced output resistance. To ensure optimal performance, the transistor sizing was rigorously optimized, and all MOSFETs were verified to be operating strictly in the saturation region using overdrive voltage analysis.
 
 ## Specifications & Performance Metrics
-The circuit was designed and simulated using Cadence Virtuoso. The final design successfully exceeded the target bandwidth while maintaining a strong phase margin.
+The circuit was designed and simulated using Cadence Virtuoso. The final design successfully met and exceeded all targeted parameters, including bandwidth, gain, and stability margins.
 
 | Parameter | Target | Achieved |
 | :--- | :--- | :--- |
 | **Unity Gain Bandwidth (UGB)** | 10 MHz | 12.88 MHz |
-| **Open-Loop AC Gain** | - | 61.89 dB |
-| **Phase Margin** | - | 85.1° |
+| **Open-Loop AC Gain** | > 60 dB | 61.89 dB |
+| **Phase Margin** | > 60° | 85.1° |
 
 ## Testbench Configuration
 The amplifier's AC response was characterized using a DC-closed loop and AC-open loop testbench configuration. The specific operating conditions applied in the testbench are:
